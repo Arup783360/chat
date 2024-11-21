@@ -2,4 +2,5 @@ Flask==2.2.2
 Flask-SocketIO==5.3.0
 eventlet==0.34.3       # Necessary for asynchronous support with Flask-SocketIO
 gunicorn==20.1.0       # For deploying on Render with Gunicorn
-Flask-Session==0.4.0   # For session management
+Flask-Session==0.4.0
+Werkzeug==1.0.1        # Ensures compatibility with Flask-SocketIO and older APIs
