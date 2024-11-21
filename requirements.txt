@@ -4,4 +4,5 @@ eventlet==0.34.3       # Necessary for asynchronous support with Flask-SocketIO
 gunicorn==20.1.0       # For deploying on Render with Gunicorn
 Flask-Session==0.4.0
 Werkzeug==2.2.2        # Ensures compatibility with Flask 2.2.2
-Flask-SQLAlchemy==2.5.1 # Adding the missing SQLAlchemy package
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.39     # Add compatible version of SQLAlchemy
